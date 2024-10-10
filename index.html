@@ -32,13 +32,13 @@
         <p style="font-family: 'Open Sans', sans-serif;">30/09/2025</p>
     </div>
 
-    <div id="time" style="text-align: left; margin-top: 14px; font-family: 'Open Sans', sans-serif;">
-        <p id="current-time" style="font-weight: normal; font-size: 14px; color: #103059;"></p>
+    <div id="time" style="text-align: left; margin-top: 13px; font-family: 'Open Sans', sans-serif;">
+        <p id="current-time" style="font-weight: normal; font-size: 13px; color: #103059;"></p>
         <p id="current-date" style="color: #103059;"></p>
     </div>
     
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+       document.addEventListener("DOMContentLoaded", function() {
             function updateTime() {
                 const now = new Date();
                 const hours = String(now.getHours()).padStart(2, '0');
@@ -46,9 +46,8 @@
                 const seconds = String(now.getSeconds()).padStart(2, '0');
                 const date = now.toLocaleDateString('es-ES'); // Formato de fecha en español
 
-                // Actualiza el contenido de los elementos
-                document.getElementById('current-time').innerHTML = `${hours}:${minutes}:<span class="bold">${seconds}</span>`; // Los segundos en negrita
-                document.getElementById('current-date').textContent = date; // Actualiza la fecha
+                document.getElementById('current-time').textContent = `${hours}:${minutes}:${seconds}`;
+                document.getElementById('current-date').textContent = date;
             }
 
             setInterval(updateTime, 1000); // Actualiza la hora cada segundo

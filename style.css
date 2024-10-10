@@ -110,24 +110,25 @@ body {
 }
 
 #time {
-    text-align: left; /* Centra el texto */
+    position: absolute;
+    text-align: center; /* Centra el texto */
     margin-top: 20px; /* Espacio superior para separar de otros elementos */
     font-family: 'Open Sans', sans-serif; /* Fuente Open Sans */
 }
 
-#current-time .bold {
+#current-time {
+    position: absolute;
     font-weight: bold; /* Solo los segundos en negrita */
     font-size: 13px; /* Tamaño de fuente para la hora */
     color: #103059; /* Color del texto de la hora */
-    position: absolute;
-    top: 195px;
-    left: 251px
+    top: -180px;
+    left: 250px
 }
 
 #current-date {
+    position: absolute;
     color: #103059; /* Color de la fecha */
     font-size: 13px; /* Tamaño de fuente para la hora */
-    position: absolute;
-    top: 215px;
+    top: -160px;
     left: 250px
 }
