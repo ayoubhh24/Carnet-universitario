@@ -88,7 +88,7 @@ body {
     text-align: left; /* Centra el texto */
     margin-top: 1px; /* Espacio superior para separar de otros elementos */
     position: absolute; /* Posición absoluta para colocar los elementos en cualquier lugar de la pantalla */
-    top: 265px; /* Ajusta la posición superior */
+    top: 250px; /* Ajusta la posición superior */
     left: 250px; /* Alineado a la izquierda */
     font-family: 'Open Sans', sans-serif; /* Fuente Open Sans */
 }
@@ -120,7 +120,7 @@ body {
     font-size: 13px; /* Tamaño de fuente para la hora */
     color: #103059; /* Color del texto de la hora */
     position: absolute;
-    top: 200px;
+    top: 195px;
     left: 250px
 }
 
@@ -128,6 +128,6 @@ body {
     color: #103059; /* Color de la fecha */
     font-size: 13px; /* Tamaño de fuente para la hora */
     position: absolute;
-    top: 240px;
+    top: 215px;
     left: 250px
 }
