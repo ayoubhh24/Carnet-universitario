@@ -2,7 +2,7 @@ body {
     margin: 0; /* Eliminar márgenes por defecto */
     padding: 0; /* Eliminar relleno por defecto */
     height: 100vh; /* Establecer la altura a la altura de la ventana */
-    background-image: url('fondo.png'); /* Cambia esto por la ruta de tu imagen de fondo */
+    background-image: url('fondo.jpg'); /* Cambia esto por la ruta de tu imagen de fondo */
     background-size: cover; /* La imagen cubrirá toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* No repetir la imagen */
@@ -37,7 +37,7 @@ body {
 /* Contenedor para el nombre alineado a la izquierda */
 #left-name {
     position: absolute; /* Para posicionar el nombre en cualquier lugar de la pantalla */
-    top: 360px; /* Ajusta la posición superior */
+    top: 340px; /* Ajusta la posición superior */
     left: 20px; /* Alineado a la izquierda */
     font-size: 18px; /* Tamaño del texto */
     font-family: 'Open Sans', sans-serif; /* Aplica la fuente Open Sans */
@@ -48,7 +48,7 @@ body {
 /* Contenedor para el nombre, DNI y NIU alineados a la izquierda */
 #left-info {
     position: absolute; /* Posición absoluta para colocar los elementos en cualquier lugar de la pantalla */
-    top: 400px; /* Ajusta la posición superior */
+    top: 380px; /* Ajusta la posición superior */
     left: 20px; /* Alineado a la izquierda */
     font-size: 15px; /* Tamaño del texto */
     font-family: 'Open Sans', sans-serif; /* Aplica la fuente Open Sans */
@@ -73,7 +73,7 @@ body {
     text-align: center; /* Centra la imagen horizontalmente */
     margin-top: 20px; /* Añade un margen superior para separar de los elementos anteriores */
     position: absolute; /* Para posicionar el nombre en cualquier lugar de la pantalla */
-    top: 200px; /* Ajusta la posición superior */
+    top: 180px; /* Ajusta la posición superior */
     left: 20px; /* Alineado a la izquierda */
 }
 
@@ -116,7 +116,7 @@ body {
 }
 
 #current-time {
-    font-weight: normal; /* Hace que la hora sea en negrita */
+    font-weight: bold; /* Hace que la hora sea en negrita */
     font-size: 13px; /* Tamaño de fuente para la hora */
     color: #103059; /* Color del texto de la hora */
     position: absolute;
