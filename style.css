@@ -117,12 +117,11 @@ body {
 
 #current-time .bold {
     font-weight: bold; /* Solo los segundos en negrita */
-    font-weight: bold; /* Hace que la hora sea en negrita */
     font-size: 13px; /* Tamaño de fuente para la hora */
     color: #103059; /* Color del texto de la hora */
     position: absolute;
     top: 195px;
-    left: 250px
+    left: 251px
 }
 
 #current-date {
