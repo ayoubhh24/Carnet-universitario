@@ -11,7 +11,7 @@ body {
 #header-image {
     width: 100%; /* Asegura que la imagen ocupe todo el ancho de la pantalla */
     text-align: center; /* Centra la imagen horizontalmente */
-    margin-top: 65px; /* Evita márgenes en la parte superior */
+    margin-top: 50px; /* Evita márgenes en la parte superior */
 }
 
 #header-image img {
@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    height: 48vh; /* Ocupa el 100% de la altura de la pantalla */
+    height: 44vh; /* Ocupa el 100% de la altura de la pantalla */
     text-align: center; /* Alinea el texto en el centro */
 }
 
@@ -80,7 +80,7 @@ body {
 /* Estilo para la imagen del perfil */
 #profile-image img {
     max-width: auto; /* Asegura que la imagen no exceda el ancho de su contenedor */
-    width: 200%; /* Mantiene la proporción de la imagen */
+    width: 220%; /* Mantiene la proporción de la imagen */
     border-radius: 0; /* Asegura que no haya bordes redondeados */
 }
 
@@ -88,7 +88,7 @@ body {
     text-align: left; /* Centra el texto */
     margin-top: 1px; /* Espacio superior para separar de otros elementos */
     position: absolute; /* Posición absoluta para colocar los elementos en cualquier lugar de la pantalla */
-    top: 280px; /* Ajusta la posición superior */
+    top: 265px; /* Ajusta la posición superior */
     left: 250px; /* Alineado a la izquierda */
     font-family: 'Open Sans', sans-serif; /* Fuente Open Sans */
 }
@@ -120,7 +120,7 @@ body {
     font-size: 13px; /* Tamaño de fuente para la hora */
     color: #103059; /* Color del texto de la hora */
     position: absolute;
-    top: 220px;
+    top: 200px;
     left: 250px
 }
 
