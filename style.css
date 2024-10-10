@@ -121,7 +121,7 @@ body {
     font-weight: bold; /* Solo los segundos en negrita */
     font-size: 13px; /* Tamaño de fuente para la hora */
     color: #103059; /* Color del texto de la hora */
-    top: -180px;
+    top: -160px;
     left: 250px
 }
 
@@ -129,6 +129,6 @@ body {
     position: absolute;
     color: #103059; /* Color de la fecha */
     font-size: 13px; /* Tamaño de fuente para la hora */
-    top: -160px;
+    top: -145px;
     left: 250px
 }
